@@ -12,13 +12,34 @@
     width: 50%;
     border: 1px solid black;
   }
+  video {
+    width: 80%;
+  }
   th, td {
     text-align: left;
     padding: 8px;
     border: 1px solid #ff7041;
   }
+  section {
+    border: 2px solid black;
+    padding: 20px;
+    width: 50%;
+  }
+  header{
+    border: 2px solid black;
+    padding: 20px;
+    width: 50%;
+  }
 </style>
+
 <body>
+  <header>
+    <h1>HEADER</h1>
+    <h2>Oracle Red Bull Racing</h2>
+  </header>
+  <br>
+  <section>
+    <h1>LIST</h1>
     <ul>
         <li><a href="#home" class="menu-btn">Home</a></li>
         <li><a href="#about" class="menu-btn">About</a></li>
@@ -36,8 +57,11 @@
         <li>Yamaha</li>
         <li>Kawasaki</li>
     </ol>
-
+  </section>
+  <br>
     <!-- Headers -->
+    <section>
+    <h1>TEXT FORMATING</h1>
     <H1>Redbull Racing</H1>
     <H2>Redbull Racing</H2>
     <h3>Redbull Racing</h3>
@@ -45,28 +69,37 @@
     <h5>Redbull Racing</h5>
     <h6>Redbull Racing</h6>    
     <p>I am Philip and Im a redbull fan</p>  
-    
-
+  </section>
+    <br>
+  <section>
+    <H1>LINK</H1>
     <a href="https://www.redbullracing.com/int-en">Redbull Website</a>
+  </section>
     <br>
-
+  <section>
+    <h1>IMAGE</h1>
     <img src="https://img.redbull.com/images/c_fill,w_520,h_580,g_auto,f_auto,q_auto/redbullcom/2024/2/21/k8u6huockkth63h3rlnm/max-hero" alt="Max">
-    
+  </section>
     <br>
     
-
-    <video width="1080" height="720" controls>
+    <section>
+      <H1>VIDEO</H1>
+    <video  controls>
       <source src="Galaxy S24 Ultra_ Epic Camera Challenge with MrBeast Samsung.mp4" type="video/mp4">
       <source src="Galaxy S24 Ultra_ Epic Camera Challenge with MrBeast Samsung.mp4" type="video/ogg">
     </video>
+  </section>
 
     <br>
-
+  <section>
+    <H1>AUDIO</H1>
     <audio controls>
       <source src="Galaxy S24 Ultra_ Epic Camera Challenge with MrBeast Samsung.mp3" type="audio/mpeg">
     </audio>
-
-    
+  </section>
+    <br>  
+    <section>
+      <h1>HTML TABLES</h1>
     <table>
         <tr>
           <th>Driver</th>
@@ -85,9 +118,15 @@
         </tr>
       </table>
       <br>
-
+    </section>
+    <br>
+    <section>
+      <H1>EMBED</H1>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/7fIAdDaps9w?si=UsAhIzmc_WlHXEYF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      
+    </section>
+    <br>
+      <section>
+        <h1>HTML FORMS</h1>
       <form action="">
         <label for="firstname">First Name</label>
         <input type="text" id="firstname" name="firstname">
@@ -120,6 +159,7 @@
         <label for="Time">Time</label>
         <input type="time" name="time">
       </form>
+    </section>
     
 </body>
 </html>
